@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator | Veda Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculator">
+        <p class="tag">VEDA TECHNOLOGY · TASK 7</p>
+        <h1>Basic Calculator</h1>
+
+        <input
+            type="text"
+            id="display"
+            aria-label="Calculator display"
+            value="0"
+            readonly
+        >
+
+        <div class="buttons">
+            <button class="clear" data-action="clear">AC</button>
+            <button data-action="delete">DEL</button>
+            <button data-operator="/">÷</button>
+            <button data-operator="*">×</button>
+
+            <button data-number="7">7</button>
+            <button data-number="8">8</button>
+            <button data-number="9">9</button>
+            <button data-operator="-">−</button>
+
+            <button data-number="4">4</button>
+            <button data-number="5">5</button>
+            <button data-number="6">6</button>
+            <button data-operator="+">+</button>
+
+            <button data-number="1">1</button>
+            <button data-number="2">2</button>
+            <button data-number="3">3</button>
+            <button class="equals" data-action="equals">=</button>
+
+            <button data-number="0" class="zero">0</button>
+            <button data-number=".">.</button>
+        </div>
+
+        <p class="footer">Simple · Fast · Responsive</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
